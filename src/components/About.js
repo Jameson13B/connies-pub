@@ -7,7 +7,10 @@ class About extends Component {
     }
     render() { 
         return (
-            <div className='About'>About Page</div>
+            <div className='About' style={{height: "60vh"}}>
+                About Page
+                <p>This page is under construction.</p>
+            </div>
         );
     }
 }

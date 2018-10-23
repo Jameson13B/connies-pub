@@ -7,7 +7,10 @@ class Location extends Component {
     }
     render() { 
         return (
-            <div className='Location'>Location Page</div>
+            <div className='Location' style={{height: "60vh"}}>
+                Location Page
+                <p>This page is under construction.</p>
+            </div>
         );
     }
 }

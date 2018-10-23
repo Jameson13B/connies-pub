@@ -26,7 +26,7 @@ class Menu extends Component {
           <img src={happyHour} alt='Happy Hour' className='menu-img' />
         </div>
         <p className='disclaimer'>*If you are interested in trying some special cake, this is the 
-        place. Come visit Connie and she will help you get started and answer any questions.</p>
+        place. Come visit Connie and she will help you get started and answer any questions you may have.</p>
       </div>
     );
   }
