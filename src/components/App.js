@@ -23,6 +23,7 @@ class App extends Component {
         <Route path='/menu' component={Menu} />
         <Route path='/location' component={Location} />
         <Route path='/about' component={About} />
+        <p className='sig'>Website by <a href="mailto:jamesonbrown@neolivity.com">Jameson Brown</a></p>
       </div>
     );
   }
