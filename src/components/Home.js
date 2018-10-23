@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import connie_bar from '../img/connie_bar.jpg';
 import friend_bar from '../img/friend_bar.jpg';
 import front from '../img/front.jpg';
@@ -33,7 +34,7 @@ class Home extends Component {
                     <p>Of course at the core of Connies Country Western Pub is Connie Jackson herself. 
                         With a Texas size personality and a heart of gold, Connie truly is a special 
                         person to everyone. A goddess in the kitchen and the best host around, 
-                        click <a href='/about'>here</a> to learn more about Connie and her roadside gem.
+                        click <Link to='/about'>here</Link> to learn more about Connie and her roadside gem.
                     </p>
                 </div>
             </div>
