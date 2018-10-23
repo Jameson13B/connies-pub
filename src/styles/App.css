@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  max-width: 768px;
+  margin: 0 auto;
+  background: white;
+}
+
+.App-header {
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 1rem 0;
+}
+.App .rope {
+  background-size: cover;
+  background-image: url('../img/rope_border.png');
+  width: 53%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  height: 9.5rem;
+}
+.App-header h1 {
+  font-size: 2.5rem;
+  font-family: 'durango'; 
+  line-height: 3rem;
+  margin-bottom: .75rem;
+}
+.App-header p {
+  font-size: .8rem;
+}
+.App-header .motto {
+  font-size: 1.15rem;
+  margin: .5rem 0;
+}
+@font-face {
+  font-family: 'durango';
+  src: url('../img//Durango\ Western.otf');
+}
+@font-face {
+  font-family: 'billyforges';
+  src: url('../img/billyforges.otf');
+}
