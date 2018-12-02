@@ -14,7 +14,7 @@ class Menu extends Component {
     return (
       <div className='Menu'>
         <p>Connie has some of the most delicious western comfort foods, amazing Jenny's cakes, 
-          and best happy hour in Jamaica. Everything is cooked to order with the best ingredients 
+          and the best happy hour in Jamaica. Everything is cooked to order with the best ingredients 
           and with lots of love. Best known for homemade Mac n Cheese, fried chicken, and 
           <span style={{fontStyle: 'oblique'}}> special cake*</span>.</p>
         <img src={menu} alt='menu board'/>
