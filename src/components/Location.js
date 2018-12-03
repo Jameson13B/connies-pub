@@ -9,14 +9,14 @@ class Location extends Component {
   }
   render() {
     return (
-      <div className="Location" style={{ height: "60vh" }}>
+      <div className="Location">
         <p>
-          Our 10 square feet of Texas is located on West End Road in the
+          Our 10 square feet of Texas is located on the West End Road in the
           beautiful cliffs of Negril, Jamaica. Across the street and a little
           down from The Spa Retreat. Taxis know where we are located or you can
           call Connie at 876-846-7890 for directions.
         </p>
-        <p>Open Mon - Sat 9am-11pm and Sun 4pm-11pm</p>
+        <p>Mon - Sat 9am-11pm and Sun 4pm-11pm</p>
         <p>*Hours vary in off season</p>
         <MapContainer />
       </div>
