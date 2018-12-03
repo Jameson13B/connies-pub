@@ -1,21 +1,21 @@
 .Menu {
-    padding: 1rem;
+  padding: 1rem;
 }
 .Menu p {
-    font-size: 1rem;
-    max-width: 75%;
-    margin: 1% auto;
-    line-height: 1.5;
+  font-size: 1rem;
+  max-width: 550px;
+  margin: 1% auto;
+  line-height: 1.5;
 }
 .Menu .meals {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .Menu .menu-img {
-    width: 30%;
-    height: 30%;
-    margin: 0 1.5%;
+  width: 30%;
+  height: 30%;
+  margin: 0 1.5%;
 }
 .Menu .disclaimer {
-    font-size: .65rem;
+  font-size: 0.65rem;
 }

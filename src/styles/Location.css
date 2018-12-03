@@ -1,0 +1,12 @@
+.Location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.Location p {
+  width: 60%;
+  max-width: 5550px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
