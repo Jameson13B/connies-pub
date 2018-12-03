@@ -1,7 +1,7 @@
 import React from "react";
 import Map from "./Map";
 
-export default class MapContainer extends React.Component {
+class MapContainer extends React.Component {
   render() {
     return (
       <Map
@@ -14,3 +14,5 @@ export default class MapContainer extends React.Component {
     );
   }
 }
+
+export default MapContainer;
