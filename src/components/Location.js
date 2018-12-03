@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/Location.css";
-import MapContainer from "../Maps/MapContainer";
+import MapContainer from "../maps/MapContainer";
 
 class Location extends Component {
   constructor(props) {
