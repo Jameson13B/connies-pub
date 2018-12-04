@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/Location.css";
+import connies_sign from "../img/connies_sign.jpg";
 import MapContainer from "../maps/MapContainer";
 
 class Location extends Component {
@@ -16,6 +17,7 @@ class Location extends Component {
           down from The Spa Retreat. Taxis know where we are located or you can
           call Connie at 876-846-7890 for directions.
         </p>
+        <img src={connies_sign} alt="sign" className="img" />
         <p>Mon - Sat 9am-11pm and Sun 4pm-11pm</p>
         <p>*Hours vary in off season</p>
         <MapContainer />
