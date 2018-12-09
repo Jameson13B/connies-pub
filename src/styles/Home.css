@@ -1,29 +1,97 @@
-.Home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-bottom: 3%;
+/* Desktop 992> */
+@media (min-width: 992px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+  }
+  .Home .node {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+  .Home .node:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .Home .img {
+    width: 40%;
+    border-radius: 25px;
+  }
+  .Home p {
+    width: 40%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
-.Home .node {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 3%;
+/* Tablet 600-992 */
+@media (min-width: 600px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+  }
+  .Home .node {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+  .Home .node:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .Home .img {
+    width: 40%;
+    border-radius: 25px;
+  }
+  .Home p {
+    width: 40%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
-.Home .node:nth-child(2) {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.Home .img {
-  width: 40%;
-  border-radius: 25px;
-}
-.Home p {
-  width: 40%;
-  font-size: 1rem;
-  line-height: 1.5;
+/* Mobile <600 */
+@media (max-width: 600px) {
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+  }
+  .Home .node {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 30px;
+  }
+  .Home .node:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .Home .img {
+    width: 100%;
+    border-radius: 25px;
+  }
+  .Home p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 15px;
+  }
 }
