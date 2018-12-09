@@ -21,7 +21,7 @@ class Menu extends Component {
           chicken, and
           <span style={{ fontStyle: "oblique" }}> special cake*</span>.
         </p>
-        <img src={menu} alt="menu board" />
+        <img src={menu} alt="menu board" className="menu" />
         <p>
           In addition, Connie can cook any custom meal you want or crave. Just
           reach out at 876-846-7890 a day in advance and she will work her
