@@ -8,11 +8,19 @@ class MapContainer extends React.Component {
         doctors={this.props.doctors}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyAOp1zBEw52IlS_mzDU3EWxpVheGwAvHp8&v=3.exp&libraries=geometry,drawing,places`}
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `350px`, width: `600px` }} />}
+        containerElement={
+          <div
+            style={{
+              height: this.props.height,
+              width: this.props.width,
+              maxWidth: "550px"
+            }}
+          />
+        }
         mapElement={<div style={{ height: `100%` }} />}
       />
     );
   }
 }
-
+// 350 X 600
 export default MapContainer;

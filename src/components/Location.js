@@ -20,7 +20,7 @@ class Location extends Component {
         <img src={connies_sign} alt="sign" className="img" />
         <p>Mon - Sat 9am-11pm and Sun 4pm-11pm</p>
         <p>*Hours vary in off season</p>
-        <MapContainer />
+        <MapContainer height="350px" width="90%" />
       </div>
     );
   }
