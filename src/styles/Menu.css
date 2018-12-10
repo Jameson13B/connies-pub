@@ -1,7 +1,7 @@
 /* Mobile <600 */
 @media (max-width: 600px) {
   .Menu {
-    padding: 1rem;
+    padding: 15px;
   }
   .Menu p {
     font-size: 1.25rem;
