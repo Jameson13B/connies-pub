@@ -15,7 +15,7 @@ class Menu extends Component {
       <div className="Menu">
         <p>
           Connie has some of the most delicious western comfort foods, amazing
-          Jenny's cakes, and the best happy hour in Jamaica(beers served in a
+          Jenny's cakes, and the best happy hour in Jamaica (beers served in a
           koozie). Everything is cooked to order with the best ingredients and
           with lots of love. Best known for homemade Mac n Cheese, fried
           chicken, and
