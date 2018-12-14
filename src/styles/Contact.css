@@ -1,0 +1,70 @@
+/* Mobile <600 */
+@media (max-width: 600px) {
+  .About .form {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    border: 5px double maroon;
+    border-radius: 15px;
+  }
+  .About p {
+    width: 100%;
+    max-width: 550px;
+    font-size: 1.75rem;
+    margin: 15px 0;
+  }
+  .About p:nth-child(2) {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .About p:nth-child(3) {
+    font-size: 0.75rem;
+    margin-top: 0;
+  }
+}
+/* Tablet 600-992 */
+@media (min-width: 600px) {
+  .About .form {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    border: 5px double maroon;
+    border-radius: 15px;
+  }
+  .About p {
+    width: 100%;
+    font-size: 1.75rem;
+    margin: 15px 0;
+  }
+  .About p:nth-child(2) {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .About p:nth-child(3) {
+    font-size: 0.75rem;
+    margin-top: 0;
+  }
+}
+/* Desktop 992> */
+@media (min-width: 992px) {
+  .About .form {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border: 4px double maroon;
+    border-radius: 15px;
+  }
+  .About p {
+    width: 100%;
+    font-size: 1.75rem;
+    margin: 15px 0;
+  }
+  .About p:nth-child(2) {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .About p:nth-child(3) {
+    font-size: 0.75rem;
+    margin-top: 0;
+  }
+}
