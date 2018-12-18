@@ -17,10 +17,10 @@ class Home extends Component {
           <img src={front} alt="front" className="img" />
           <p>
             Welcome to Connies Country Western Pub in Negril, Jamaica. This is
-            the only place in Jamaica to get that true Texas experience from
-            comfort food, drinks, and country western music. Located on One Love
-            Drive in the west end, Connies is convenient, delicious, and full of
-            amazing vibes. Come visit us!
+            the only place in Jamaica to get that true Texas experience
+            including comfort food, drinks, and country western music. Located
+            on One Love Drive in the west end, Connies is convenient, delicious,
+            and full of amazing vibes. Come visit us!
           </p>
         </div>
         <div className="node">
@@ -29,8 +29,8 @@ class Home extends Component {
             Everyone that visits feels the positive vibes and feels right at
             home. Most people leave Connies having made lifelong friends and
             memories that make them return time and time again. Come in and see
-            who you may meet, a tourist from USA, Canada, Europe or even locals.
-            This is the place to be.
+            who you may meet, a tourist from USA, Australia, Canada or even
+            locals. This is the place to be.
           </p>
         </div>
         <div className="node">
