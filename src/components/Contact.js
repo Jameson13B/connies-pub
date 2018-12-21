@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "../styles/Contact.css";
 import * as typeformEmbed from "@typeform/embed";
+import "../styles/Contact.css";
 
 class Contact extends Component {
   constructor(props) {
@@ -26,9 +26,15 @@ class Contact extends Component {
     return (
       <div className="About">
         <p>Connie: 876-846-7890</p>
-        {/* Insert Facebook iframe here for follow button */}
         <p>Mon - Sat 9am-11pm and Sun 4pm-11pm</p>
         <p>*Hours vary in off season</p>
+        <a
+          className="facebook"
+          href="http://www.facebook.com/jconnie65"
+          target="blank"
+        >
+          <div className="facebook" />
+        </a>
         <div ref={el => (this.el = el)} className="form" />
       </div>
     );
