@@ -2,8 +2,8 @@
 @media (max-width: 600px) {
   .About .form {
     width: 80%;
-    height: 300px;
-    margin: 0 auto;
+    height: 500px;
+    margin: 0 auto 30px auto;
     border: 5px double maroon;
     border-radius: 15px;
   }
@@ -15,11 +15,20 @@
   }
   .About p:nth-child(2) {
     font-size: 1.25rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   .About p:nth-child(3) {
     font-size: 0.75rem;
     margin-top: 0;
+  }
+  .About .facebook {
+    background-image: url("../img//facebook_logo.png");
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 30px;
+    margin: 0 auto 15px auto;
+    cursor: pointer;
   }
 }
 /* Tablet 600-992 */
@@ -27,7 +36,7 @@
   .About .form {
     width: 80%;
     height: 550px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     border: 5px double maroon;
     border-radius: 15px;
   }
@@ -44,13 +53,22 @@
     font-size: 0.75rem;
     margin-top: 0;
   }
+  .About .facebook {
+    background-image: url("../img//facebook_logo.png");
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 30px;
+    margin: 0 auto 15px auto;
+    cursor: pointer;
+  }
 }
 /* Desktop 992> */
 @media (min-width: 992px) {
   .About .form {
     width: 80%;
-    height: 400px;
-    margin: 0 auto;
+    height: 475px;
+    margin: 0 auto 30px auto;
     border: 4px double maroon;
     border-radius: 15px;
   }
@@ -66,5 +84,14 @@
   .About p:nth-child(3) {
     font-size: 0.75rem;
     margin-top: 0;
+  }
+  .About .facebook {
+    background-image: url("../img//facebook_logo.png");
+    background-position: center;
+    background-size: cover;
+    width: 15%;
+    height: 30px;
+    margin: 0 auto 15px auto;
+    cursor: pointer;
   }
 }
