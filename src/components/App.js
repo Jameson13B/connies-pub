@@ -25,7 +25,9 @@ class App extends Component {
         <Route path="/contact" component={Contact} />
         <p className="sig">
           Website by{" "}
-          <a href="mailto:jamesonbrown@neolivity.com">Jameson Brown</a>
+          <a href="https://jamesonb.com/" target="_blanks">
+            Jameson Brown
+          </a>
         </p>
       </div>
     );
