@@ -93,26 +93,29 @@
     flex-direction: column;
     justify-content: center;
     color: white;
+    padding: 20px;
   }
   .App .rope {
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../img/rope_border.png");
     margin: 15px auto;
-    padding: 15px 20px;
-    height: 8rem;
+    padding: 20px 20px;
+    background-size: 100% 100%;
   }
   .App-header h1 {
-    font-size: 1.6rem;
+    font-size: 2.25rem;
     font-family: "durango";
     line-height: 4rem;
   }
   .App-header p {
-    font-size: 1rem;
+    margin-top: 10px;
+    font-size: 1.25rem;
   }
   .App-header .motto {
-    font-size: 1.25rem;
-    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .App .sig {
     font-size: 0.75rem;

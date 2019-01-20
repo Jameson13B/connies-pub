@@ -149,9 +149,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  /* Test */
+  animation: slide 30s linear infinite;
+  -webkit-animation: slide 30s linear infinite;
+  background: slategray url("./img/cowboy_background.png") repeat 0 0;
+  width: 100%;
+  height: 100%;
 }
 p {
   font-family: barbaro;
+}
+
+/* Test Assist */
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -400px;
+  }
+}
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
 }
 
 code {
