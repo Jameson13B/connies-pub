@@ -65,6 +65,9 @@
 }
 /* Desktop 992> */
 @media (min-width: 992px) {
+  .About {
+    padding: 1rem;
+  }
   .About .form {
     width: 80%;
     height: 475px;
