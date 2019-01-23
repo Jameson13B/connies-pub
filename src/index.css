@@ -166,7 +166,7 @@ p {
     background-position: 0 0;
   }
   to {
-    background-position: 0 -400px;
+    background-position: 0 -700px;
   }
 }
 
@@ -175,7 +175,7 @@ p {
     background-position: 0 0;
   }
   to {
-    background-position: -400px 0;
+    background-position: -700px 0;
   }
 }
 
