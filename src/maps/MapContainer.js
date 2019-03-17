@@ -6,7 +6,9 @@ class MapContainer extends React.Component {
     return (
       <Map
         doctors={this.props.doctors}
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyAOp1zBEw52IlS_mzDU3EWxpVheGwAvHp8&v=3.exp&libraries=geometry,drawing,places`}
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${
+          process.env.REACT_APP_MAPS_KEY
+        }&v=3.exp&libraries=geometry,drawing,places`}
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={
           <div
